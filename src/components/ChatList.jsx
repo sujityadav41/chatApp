@@ -11,6 +11,7 @@ import {
 
 function ChatList({ messages, user }) {
   console.log("messages", messages);
+  console.log("user",user);
 
   return (
     <div>
@@ -40,7 +41,6 @@ function ChatList({ messages, user }) {
                       <Avatar alt="John Wick" src={user.avatar} />
                     )}
                     <ListItemText
-                      className="chat-time"
                       secondary={message.time}
                       sx={{ paddingLeft: "10px" }}
                     ></ListItemText>

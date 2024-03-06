@@ -20,19 +20,6 @@
 .icons {
   cursor: pointer;
 }
-.css-o12lfm-MuiFormControl-root-MuiTextField-root .MuiInput-root:before {
-  border-bottom: none !important;
-}
-.css-953pxc-MuiInputBase-root-MuiInput-root::after {
-  border-bottom: none !important;
-}
-/* .chat-mins {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  justify-content: space-between;
-} */
-
 .user-sent-message {
   display: flex;
   flex-direction: column;
