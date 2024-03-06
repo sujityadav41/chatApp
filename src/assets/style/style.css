@@ -1,0 +1,41 @@
+.chatSection {
+  width: 100%;
+  height: 80vh;
+}
+.headBG {
+  background-color: #e0e0e0;
+}
+.borderRight500 {
+  border-right: 1px solid #e0e0e0;
+}
+.messageArea {
+  height: 60vh;
+  overflow-y: hidden;
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icons {
+  cursor: pointer;
+}
+.css-o12lfm-MuiFormControl-root-MuiTextField-root .MuiInput-root:before {
+  border-bottom: none !important;
+}
+.css-953pxc-MuiInputBase-root-MuiInput-root::after {
+  border-bottom: none !important;
+}
+/* .chat-mins {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+} */
+
+.user-sent-message {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+}

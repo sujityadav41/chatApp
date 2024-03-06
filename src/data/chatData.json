@@ -1,0 +1,137 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Michell Flintoff",
+      "status": "You: Yesterdy was great...",
+      "chatStatus": "Online",
+      "avatar":"https://material-ui.com/static/images/avatar/1.jpg",
+      "recentMessage": [
+        {
+          "text": "Nice looking dress you",
+          "time": "15 minutes ago",
+          "messageSentByYou": true
+        },
+        {
+          "text": "Yesterdy was great.",
+          "time": "15 minutes ago",
+          "messageSentByYou": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Bianca Anderson",
+      "status": "If I don't like something.",
+      "chatStatus": "Offline",
+      "avatar":"https://material-ui.com/static/images/avatar/3.jpg",
+      "recentMessage": [
+        {
+          "text": "Nice looking dress you",
+          "time": "30 minutes ago",
+          "messageSentByYou": true
+        },
+        {
+          "text": "They got there early.",
+          "time": "15 minutes ago",
+          "messageSentByYou": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Andrew Johnson",
+      "status": "Sent a photo",
+      "chatStatus": "Offline",
+      "avatar":"https://material-ui.com/static/images/avatar/2.jpg",
+      "recentMessage": [
+        {
+          "text": "Sent a photo",
+          "time": "5 days ago",
+          "messageSentByYou": true
+        },
+        {
+          "text": "They got there early.",
+          "time": "15 minutes ago",
+          "messageSentByYou": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Mark Strokes",
+      "status": "Lorem ispusm text sud...",
+      "chatStatus": "Online",
+      "avatar":"https://material-ui.com/static/images/avatar/2.jpg",
+      "recentMessage": [
+        {
+          "text": "Lorem ispusm text ...",
+          "time": "5 days ago",
+          "messageSentByYou": true
+        },
+        {
+          "text": "they got really good seats.",
+          "time": "15 minutes ago",
+          "messageSentByYou": false
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Mark, Stoinus & Rishvi",
+      "status": "Lorem ispusm text ...",
+      "chatStatus": "Online",
+      "avatar":"https://material-ui.com/static/images/avatar/3.jpg",
+      "recentMessage": [
+        {
+          "text": "Lorem ispusm text ...",
+          "time": "30 minutes ago",
+          "messageSentByYou": true
+        },
+        {
+          "text": "I want more detailed information.",
+          "time": "15 minutes ago",
+          "messageSentByYou": false
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Bianca Anderson",
+      "status": "Nice looking dress you ...",
+      "chatStatus": "Offline",
+      "avatar":"https://material-ui.com/static/images/avatar/3.jpg",
+      "recentMessage": [
+        {
+          "text": "Nice looking dress you ...",
+          "time": "2 hours ago",
+          "messageSentByYou": true
+        },
+        {
+          "text": "If I don't like something.",
+          "time": "15 minutes ago",
+          "messageSentByYou": false
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Andrew Johnson",
+      "status": "Sent a photo",
+      "chatStatus": "Offline",
+      "avatar":"https://material-ui.com/static/images/avatar/2.jpg",
+      "recentMessage": [
+        {
+          "text": "Sent a photo",
+          "time": "15 minutes ago",
+          "messageSentByYou": true
+        },
+        {
+          "text": "I'll stay away from it.",
+          "time": "15 minutes ago",
+          "messageSentByYou": false
+        }
+      ]
+    }
+  ]
+}
