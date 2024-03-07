@@ -1,25 +1,25 @@
-import React, { useState } from 'react';
-import { TextField, Grid, IconButton, Divider } from '@mui/material';
-import InsertEmoticonIcon from '@mui/icons-material/InsertEmoticon';
-import ImageIcon from '@mui/icons-material/Image';
-import AttachFileIcon from '@mui/icons-material/AttachFile';
-import MicNoneIcon from '@mui/icons-material/MicNone';
+import React, { useState } from "react";
+import { TextField, Grid, IconButton, Divider } from "@mui/material";
+import InsertEmoticonIcon from "@mui/icons-material/InsertEmoticon";
+import ImageIcon from "@mui/icons-material/Image";
+import AttachFileIcon from "@mui/icons-material/AttachFile";
+import MicNoneIcon from "@mui/icons-material/MicNone";
 
 function ChatInput({ onSendMessage }) {
- const [message, setMessage] = useState('');
+  const [message, setMessage] = useState("");
 
- const handleSubmit = (event) => {
+  const handleSubmit = (event) => {
     event.preventDefault();
     onSendMessage(message);
-    setMessage('');
- };
+    setMessage("");
+  };
 
- return (
-    <div>
+  return (
+    <div className="inputText-main">
       <Divider />
       <form onSubmit={handleSubmit}>
-        <Grid container style={{ padding: '20px' }}>
-          <Grid item xs={10} sx={{ display: 'flex' }}>
+        <Grid container style={{ padding: "20px" }}>
+          <Grid item xs={10} sx={{ display: "flex" }}>
             <IconButton size="small" color="white">
               <InsertEmoticonIcon />
             </IconButton>
@@ -31,14 +31,10 @@ function ChatInput({ onSendMessage }) {
               onChange={(e) => setMessage(e.target.value)}
               sx={{
                 pr: 2,
-                height: 'auto', 
-                width: '100%', 
-                position: 'sticky', 
-                bottom: 0,
-                '& .MuiInput-root:before': {
-                  borderBottom: 'none',
+                "& .MuiInput-root:before": {
+                  borderBottom: "none",
                 },
-             }}
+              }}
             />
           </Grid>
           <Grid item xs={2} align="right">
@@ -55,7 +51,7 @@ function ChatInput({ onSendMessage }) {
         </Grid>
       </form>
     </div>
- );
+  );
 }
 
 export default ChatInput;

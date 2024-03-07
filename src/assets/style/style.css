@@ -32,6 +32,9 @@
   align-items: flex-end;
   justify-content: space-between;
 }
-.inputText-main{
-  padding: 20px;
+.inputText-main {
+  height: auto;
+  width: 100%;
+  position: sticky;
+  bottom: 0;
 }
