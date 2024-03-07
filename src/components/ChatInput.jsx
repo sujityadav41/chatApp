@@ -31,10 +31,14 @@ function ChatInput({ onSendMessage }) {
               onChange={(e) => setMessage(e.target.value)}
               sx={{
                 pr: 2,
+                height: '40px', 
+                width: '100%', 
+                position: 'sticky', 
+                bottom: 0,
                 '& .MuiInput-root:before': {
-                 borderBottom: 'none',
+                  borderBottom: 'none',
                 },
-              }}
+             }}
             />
           </Grid>
           <Grid item xs={2} align="right">

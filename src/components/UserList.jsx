@@ -93,7 +93,7 @@ function UserList({ users, onUserSelect }) {
           }}
         />
       </Grid>
-      <List>
+      <List className="userlist-main">
         {filteredUsers.map((user) => (
           <ListItem button key={user.id} onClick={() => onUserSelect(user)}>
             <ListItemIcon>
@@ -103,10 +103,7 @@ function UserList({ users, onUserSelect }) {
                 variant="dot"
                 color={user.chatStatus === "Online" ? "#44b700" : "#FFA500"}
               >
-                <Avatar
-                  alt={user.name}
-                  src={user.avatar}
-                />
+                <Avatar alt={user.name} src={user.avatar} />
               </StyledBadge>
             </ListItemIcon>
             <ListItemText primary={user.name} secondary={user.status} />
