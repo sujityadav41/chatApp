@@ -31,7 +31,7 @@ function ChatInput({ onSendMessage }) {
               onChange={(e) => setMessage(e.target.value)}
               sx={{
                 pr: 2,
-                height: '40px', 
+                height: 'auto', 
                 width: '100%', 
                 position: 'sticky', 
                 bottom: 0,
