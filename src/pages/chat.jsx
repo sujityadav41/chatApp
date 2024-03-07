@@ -32,7 +32,7 @@ const Chat = () => {
                 onUserSelect={handleUserSelect}
               />
             </Grid>
-            <Grid item xs={8}>
+            <Grid item xs={8} sx={{ position: "relative" }}>
               {selectedUser && (
                 <>
                   <UserHeader user={selectedUser} />
