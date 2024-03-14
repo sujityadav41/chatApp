@@ -3,17 +3,32 @@
     {
       "id": 1,
       "name": "Michell Flintoff",
-      "status": "You: Yesterdy was great...",
+      "status": "If I don't like something.",
       "chatStatus": "Online",
-      "avatar":"https://material-ui.com/static/images/avatar/1.jpg",
+      "avatar": "images/Group_126.png",
       "recentMessage": [
         {
-          "text": "Nice looking dress you",
+          "text": "If I don't like something, I'll stay away from it.",
           "time": "15 minutes ago",
           "messageSentByYou": true
         },
         {
-          "text": "Yesterdy was great.",
+          "text": "If I don't like something, I'll stay away from it.",
+          "time": "15 minutes ago",
+          "messageSentByYou": false
+        },
+        {
+          "text": "I want more detailed information.",
+          "time": "15 minutes ago",
+          "messageSentByYou": true
+        },
+        {
+          "text": "If I don't like something, I'll stay away from it.",
+          "time": "15 minutes ago",
+          "messageSentByYou": false
+        },
+        {
+          "text": "They got there early, and they got really good seats.",
           "time": "15 minutes ago",
           "messageSentByYou": false
         }
@@ -22,9 +37,9 @@
     {
       "id": 2,
       "name": "Bianca Anderson",
-      "status": "If I don't like something.",
+      "status": "Nice looking dress you",
       "chatStatus": "Offline",
-      "avatar":"https://material-ui.com/static/images/avatar/3.jpg",
+      "avatar": "images/Group 127.png",
       "recentMessage": [
         {
           "text": "Nice looking dress you",
@@ -35,6 +50,21 @@
           "text": "They got there early.",
           "time": "15 minutes ago",
           "messageSentByYou": false
+        },
+        {
+          "text": "I want more detailed information.",
+          "time": "15 minutes ago",
+          "messageSentByYou": true
+        },
+        {
+          "text": "If I don't like something, I'll stay away from it.",
+          "time": "15 minutes ago",
+          "messageSentByYou": false
+        },
+        {
+          "text": "They got there early, and they got really good seats.",
+          "time": "15 minutes ago",
+          "messageSentByYou": false
         }
       ]
     },
@@ -43,7 +73,7 @@
       "name": "Andrew Johnson",
       "status": "Sent a photo",
       "chatStatus": "Offline",
-      "avatar":"https://material-ui.com/static/images/avatar/2.jpg",
+      "avatar": "images/Group 128.png",
       "recentMessage": [
         {
           "text": "Sent a photo",
@@ -54,6 +84,21 @@
           "text": "They got there early.",
           "time": "15 minutes ago",
           "messageSentByYou": false
+        },
+        {
+          "text": "I want more detailed information.",
+          "time": "15 minutes ago",
+          "messageSentByYou": true
+        },
+        {
+          "text": "If I don't like something, I'll stay away from it.",
+          "time": "15 minutes ago",
+          "messageSentByYou": false
+        },
+        {
+          "text": "They got there early, and they got really good seats.",
+          "time": "15 minutes ago",
+          "messageSentByYou": false
         }
       ]
     },
@@ -62,7 +107,7 @@
       "name": "Mark Strokes",
       "status": "Lorem ispusm text sud...",
       "chatStatus": "Online",
-      "avatar":"https://material-ui.com/static/images/avatar/2.jpg",
+      "avatar": "images/Group 129.png",
       "recentMessage": [
         {
           "text": "Lorem ispusm text ...",
@@ -78,10 +123,10 @@
     },
     {
       "id": 5,
-      "name": "Mark, Stoinus & Rishvi",
+      "name": "Mark,Stoinus & Rishvi",
       "status": "Lorem ispusm text ...",
       "chatStatus": "Online",
-      "avatar":"https://material-ui.com/static/images/avatar/3.jpg",
+      "avatar": "images/Asset 1-8.png",
       "recentMessage": [
         {
           "text": "Lorem ispusm text ...",
@@ -100,7 +145,7 @@
       "name": "Bianca Anderson",
       "status": "Nice looking dress you ...",
       "chatStatus": "Offline",
-      "avatar":"https://material-ui.com/static/images/avatar/3.jpg",
+      "avatar": "images/Group 127.png",
       "recentMessage": [
         {
           "text": "Nice looking dress you ...",
@@ -111,6 +156,21 @@
           "text": "If I don't like something.",
           "time": "15 minutes ago",
           "messageSentByYou": false
+        },
+        {
+          "text": "I want more detailed information.",
+          "time": "15 minutes ago",
+          "messageSentByYou": true
+        },
+        {
+          "text": "If I don't like something, I'll stay away from it.",
+          "time": "15 minutes ago",
+          "messageSentByYou": false
+        },
+        {
+          "text": "They got there early, and they got really good seats.",
+          "time": "15 minutes ago",
+          "messageSentByYou": false
         }
       ]
     },
@@ -119,7 +179,7 @@
       "name": "Andrew Johnson",
       "status": "Sent a photo",
       "chatStatus": "Offline",
-      "avatar":"https://material-ui.com/static/images/avatar/2.jpg",
+      "avatar": "images/Group 128.png",
       "recentMessage": [
         {
           "text": "Sent a photo",
@@ -128,6 +188,21 @@
         },
         {
           "text": "I'll stay away from it.",
+          "time": "15 minutes ago",
+          "messageSentByYou": false
+        },
+        {
+          "text": "I want more detailed information.",
+          "time": "15 minutes ago",
+          "messageSentByYou": true
+        },
+        {
+          "text": "If I don't like something, I'll stay away from it.",
+          "time": "15 minutes ago",
+          "messageSentByYou": false
+        },
+        {
+          "text": "They got there early, and they got really good seats.",
           "time": "15 minutes ago",
           "messageSentByYou": false
         }

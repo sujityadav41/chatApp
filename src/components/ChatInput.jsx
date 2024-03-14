@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { TextField, Grid, IconButton, Divider } from "@mui/material";
-import InsertEmoticonIcon from "@mui/icons-material/InsertEmoticon";
-import ImageIcon from "@mui/icons-material/Image";
-import AttachFileIcon from "@mui/icons-material/AttachFile";
-import MicNoneIcon from "@mui/icons-material/MicNone";
+import InsertEmoticonIcon from "../assets/images/add_reaction_FILL0_wght300_GRAD0_opsz24 1.png";
+import ImageIcon from "../assets/images/ImageIcon.png";
+import AttachFileIcon from "../assets/images/attach_file_FILL0_wght300_GRAD0_opsz24 1.png";
+import MicNoneIcon from "../assets/images/mic_FILL0_wght300_GRAD0_opsz24 1.png";
 
 function ChatInput({ onSendMessage }) {
   const [message, setMessage] = useState("");
@@ -21,7 +21,11 @@ function ChatInput({ onSendMessage }) {
         <Grid container style={{ padding: "20px" }}>
           <Grid item xs={10} sx={{ display: "flex" }}>
             <IconButton size="small" color="white">
-              <InsertEmoticonIcon />
+              <img
+                src={InsertEmoticonIcon}
+                alt="InsertEmoticonIcon"
+                style={{ width: "24px", height: "24px" }}
+              />
             </IconButton>
             <TextField
               fullWidth
@@ -30,22 +34,42 @@ function ChatInput({ onSendMessage }) {
               value={message}
               onChange={(e) => setMessage(e.target.value)}
               sx={{
+                marginLeft:"5px",
                 pr: 2,
                 "& .MuiInput-root:before": {
-                  borderBottom: "none",
+                  borderBottom: "none !important", 
                 },
+                "& .MuiInput-root:after": {
+                  borderBottom: "none !important", 
+                },
+                "& .MuiInput-root:hover": {
+                  borderBottom: "none !important",
+                },
+                
               }}
             />
           </Grid>
           <Grid item xs={2} align="right">
             <IconButton size="small" color="white">
-              <ImageIcon />
+              <img
+                src={ImageIcon}
+                alt="ImageIcon"
+                style={{ width: "24px", height: "24px" }}
+              />
             </IconButton>
             <IconButton size="small" color="white">
-              <AttachFileIcon />
+              <img
+                src={AttachFileIcon}
+                alt="AttachFileIcon"
+                style={{ width: "24px", height: "24px" }}
+              />
             </IconButton>
             <IconButton size="small" color="white">
-              <MicNoneIcon />
+              <img
+                src={MicNoneIcon}
+                alt="MicNoneIcon"
+                style={{ width: "24px", height: "24px" }}
+              />
             </IconButton>
           </Grid>
         </Grid>

@@ -21,6 +21,12 @@ const Chat = () => {
     setMessages([...messages, newMessage]);
   };
 
+  const [isChatMediaVisible, setIsChatMediaVisible] = useState(false);
+
+  const toggleChatMedia = () => {
+     setIsChatMediaVisible(!isChatMediaVisible);
+  };
+
   return (
     <Container>
       <Box sx={{ padding: "20px 0px" }}>
@@ -35,8 +41,8 @@ const Chat = () => {
             <Grid item xs={8} sx={{ position: "relative" }}>
               {selectedUser && (
                 <>
-                  <UserHeader user={selectedUser} />
-                  <ChatList messages={messages} user={selectedUser} />
+                  <UserHeader user={selectedUser} toggleChatMedia={toggleChatMedia} />
+                  <ChatList messages={messages} user={selectedUser} isChatMediaVisible={isChatMediaVisible} />
                   <ChatInput onSendMessage={handleSendMessage} />
                 </>
               )}
