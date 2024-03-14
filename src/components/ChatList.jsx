@@ -14,7 +14,6 @@ import ChatMedia from "./ChatMedia";
 
 function ChatList({ messages, user, isChatMediaVisible }) {
   const StyledList = styled(List)({
-    maxHeight: "450px",
     overflowY: "auto",
     width: "100%",
     "&::-webkit-scrollbar": {
